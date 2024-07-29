@@ -7,7 +7,7 @@ Welcome to the Front-End Developer interview project! This project is designed t
 - Use Tailwind CSS provided in the project or any other styling method to ensure a cohesive and professional appearance across components.
 
 ### Form Component:
-- Modify the existing form to include a Phone field.
+- Modify the existing form to include a phone field.
 
 ### Table Component:
 - Modify the existing table to support the newly added phone field.
@@ -18,7 +18,7 @@ Welcome to the Front-End Developer interview project! This project is designed t
 ## Installation and Usage
 ### Clone the repository:
 ```
-git clone https://github.com/yourusername/frontend-interview-project.git
+git clone https://github.com/HorrocksEngineers/rnd-junior-dev-interview.git
 ```
 ### Install dependencies:
 ```
