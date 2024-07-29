@@ -20,6 +20,7 @@ Welcome to the Front-End Developer interview project! This project is designed t
 ```
 git clone https://github.com/HorrocksEngineers/rnd-junior-dev-interview.git
 ```
+### Make a new branch for your changes:
 ### Install dependencies:
 ```
 cd frontend-interview-project
