@@ -22,11 +22,11 @@ git clone https://github.com/HorrocksEngineers/rnd-junior-dev-interview.git
 ```
 ### Make a new branch for your changes:
 ```
+cd rnd-junior-dev-interview
 git checkout -b [BRANCH_NAME]
 ```
 ### Install dependencies:
 ```
-cd frontend-interview-project
 npm install
 ```
 ### Start the development server:
