@@ -1,0 +1,45 @@
+input,
+textarea {
+  border: 1px solid blue;
+}
+
+th,
+td {
+  padding-right: 20px;
+}
+
+.main-container {
+  padding: 40px 44px;
+}
+
+.submitted-data-table {
+  margin-top: 34px;
+}
+
+.form-style {
+  margin-top: 22px;
+}
+
+.h1-style {
+  font-size: 34px;
+}
+
+.h2-style {
+  font-size: 22px;
+}
+
+.button-style {
+  padding: 8px;
+  background-color: blue;
+  color: white;
+  max-width: 100px;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-form > form {
+  display: grid;
+}

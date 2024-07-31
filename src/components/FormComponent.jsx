@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../App.css";
 
 const FormComponent = ({ onSubmit }) => {
   const [formData, setFormData] = useState({
@@ -6,6 +7,7 @@ const FormComponent = ({ onSubmit }) => {
     name: "",
     email: "",
     message: "",
+    phone: "",
   });
 
   const handleChange = (e) => {
@@ -22,13 +24,14 @@ const FormComponent = ({ onSubmit }) => {
       name: "",
       email: "",
       message: "",
+      phone: "",
     });
   };
 
   return (
-    <div>
-      <h2>Submit Form</h2>
-      <form onSubmit={handleSubmit}>
+    <div className="main-form">
+      <h2 className="h2-style">Submit Form</h2>
+      <form className="form-style" onSubmit={handleSubmit}>
         <label>
           Name:
           <input
@@ -50,6 +53,16 @@ const FormComponent = ({ onSubmit }) => {
             required
           />
         </label>
+        <label>
+          Phone:
+          <input
+            type="phone"
+            name="phone"
+            value={formData.phone}
+            onChange={handleChange}
+            required
+          />
+        </label>
         <br />
         <label>
           Message:
@@ -61,7 +74,9 @@ const FormComponent = ({ onSubmit }) => {
           />
         </label>
         <br />
-        <button type="submit">Submit</button>
+        <button className="button-style" type="submit">
+          Submit
+        </button>
       </form>
     </div>
   );

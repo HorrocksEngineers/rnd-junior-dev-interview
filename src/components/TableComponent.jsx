@@ -2,7 +2,7 @@ import React from "react";
 
 const TableComponent = ({ data }) => {
   return (
-    <div>
+    <div className="submitted-data-table">
       <h2>Submitted Data Table</h2>
       <table>
         <thead>
@@ -10,6 +10,7 @@ const TableComponent = ({ data }) => {
             <th>ID</th>
             <th>Name</th>
             <th>Email</th>
+            <th>Phone</th>
             <th>Message</th>
           </tr>
         </thead>
@@ -19,6 +20,7 @@ const TableComponent = ({ data }) => {
               <td>{item.id}</td>
               <td>{item.name}</td>
               <td>{item.email}</td>
+              <td>{item.phone}</td>
               <td>{item.message}</td>
             </tr>
           ))}
