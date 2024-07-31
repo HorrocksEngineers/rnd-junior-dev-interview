@@ -21,6 +21,9 @@ Welcome to the Front-End Developer interview project! This project is designed t
 git clone https://github.com/HorrocksEngineers/rnd-junior-dev-interview.git
 ```
 ### Make a new branch for your changes:
+```
+git checkout -b [BRANCH_NAME]
+```
 ### Install dependencies:
 ```
 cd frontend-interview-project
@@ -29,6 +32,10 @@ npm install
 ### Start the development server:
 ```
 npm run dev
+```
+### Make your changes and push the new branch
+```
+git push --set-upstream origin [BRANCH_NAME]
 ```
 ---
 ### Thank you for participating in the Front-End Developer interview project!
